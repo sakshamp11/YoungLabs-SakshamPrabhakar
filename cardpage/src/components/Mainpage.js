@@ -13,6 +13,7 @@ let flag = 0;
 let first="" ;let last="";let t="";
 let gen="";let streetname="";let code="";let city="";let state="";let con=""
 let streetn="";let  o="";let d="";let dp=""
+
 export class Mainpage extends Component {
   constructor() {
     super();
@@ -20,6 +21,7 @@ export class Mainpage extends Component {
       cards: []
       
     }
+   
   }
   async componentDidMount() {
     const res = await axios.get("https://randomuser.me/api/?inc=gender,name,nat,location,picture,email&results=%2020")
@@ -92,7 +94,7 @@ export class Mainpage extends Component {
           <Card sx={{ width: 270, height: 100, margin: 3 }}>
               <CardContent style={{ backgroundColor: 'white' }}>
                 <Typography sx={{ fontSize: 11 }} color="text.secondary" gutterBottom>
-                  {cardEle.gender}  .NL
+                  {cardEle.gender}  .{cardEle.nat}
                 </Typography>
                 <Typography sx={{ fontSize: 16 }} color="text.secondary" style={{ fontWeight: "bold" }} gutterBottom>
                   {cardEle.name.title}. {cardEle.name.first}{" "}{cardEle.name.last}
