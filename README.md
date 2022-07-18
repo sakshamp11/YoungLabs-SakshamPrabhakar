@@ -1,3 +1,3 @@
 # YoungLabs-SakshamPrabhakar
 
-#deploy link; https://github.com/sakshamp11/YoungLabs-SakshamPrabhakar
+#deploy link; https://young-labs-sakshamprabhakar.herokuapp.com/
