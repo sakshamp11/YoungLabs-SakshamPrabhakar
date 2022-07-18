@@ -1,0 +1,12 @@
+.three{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem; 
+    justify-content: space-around;
+   margin-bottom: 3%;
+   
+}
+.u{
+    border-bottom:3px solid red;
+}
