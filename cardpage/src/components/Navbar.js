@@ -4,7 +4,7 @@ export class Navbar extends Component {
   render() {
     return (
         
-      <div style={{backgroundColor:"whitesmoke",height:'5rem',borderCollapse:"black"}}>
+      <div style={{backgroundColor:"#E5E5E5",height:'5rem',borderCollapse:"black"}}>
         <br></br>
         <div className='navwrapper' style={{display:'flex'}}>
         <div style={{fontWeight:"bold",marginLeft:'5rem',borderColor:"black",display:"flex",alignContent:'center'}}>

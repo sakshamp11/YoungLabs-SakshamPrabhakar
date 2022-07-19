@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <>
-        <div style={{backgroundColor:"whitesmoke"}}>
+        <div style={{backgroundColor:"#E5E5E5"}}>
         <Navbar/>
         <Mainpage/>
         </div>

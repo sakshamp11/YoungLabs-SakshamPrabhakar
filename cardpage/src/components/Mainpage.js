@@ -72,7 +72,7 @@ export class Mainpage extends Component {
           </div>
           <CardContent  style={{ backgroundColor: 'white',marginTop:"3%",marginLeft:'4%' }}>
           <u class="spelling-error">
-            <Typography  sx={{ fontSize: 23 }} color="red" style={{ fontWeight: "bold",fontColor:'red' }} gutterBottom>
+            <Typography  sx={{ fontSize: 27 }} color="red" style={{ fontWeight: "bold",fontColor:'red' }} gutterBottom>
              {t}. {first} {last}
             </Typography></u>
               {streetn},{streetname},{city},{con},{code}
